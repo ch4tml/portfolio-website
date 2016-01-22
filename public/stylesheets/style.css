@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=News+Cycle&subset=latin,latin-ext);
+
+#header {
+  background: url("/images/Old_Keyboard.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: right;
+  padding: 5% 5% 5% 5%;
+}
+
+.social-icons{
+  font-size: 400%;
+}
+
+#about {
+  background: #FFFFFF;
+  font-size: 18px;
+  color: #000000;
+  padding: 5% 5% 5% 5%;
+}
+
+#about h1 {
+  text-align: center;
+}
+
+.slide h2{
+  color: #000000;
+}
+
+#thanks {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+#portfolio {
+  background: #339999;
+  text-align: center;
+  padding: 50px;
+  color: #FFFFFF;
+  padding: 5% 5% 5% 5%;
+}
+
+#portfolio h3 {
+  font-size: 25px;
+}
+
+#portfolio p {
+  font-size: 500%;
+}
+
+#image_attributions {
+  background: #339999;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 5% 5% 5% 5%;
+}
+
+#contact {
+  background: #FFFFFF;
+  /*height: 200px;*/ 
+  color: #000000;
+  text-align: center;
+  padding: 5% 5% 5% 5%;
+}
+/* JUMBOTRON */
+
+.jumbotron {
+  background-color: rgba(51, 153, 153, 0.6);
+  /* Makes background opaque without affecting foreground div */
+}
+
+#jumbotron-text {
+  color: #FFFFFF;
+  padding: 5% 5% 5% 5%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#skill, #accordion h2{
+  color: #993333;
+  font-weight: bold;
+}
+
+/* CLASSES */
+
+.about_me {
+  font-size: 50px;
+  text-align: left;
+}
+
+.btn, .btn:visited {
+  background: #339999;
+  color: #000000;
+  border-color: #FFFFFF;
+  height: 100%;
+  width: 100%;
+  padding: 5% 5% 5% 5%;
+}
+
+.btn:hover {
+  background-color: #993333;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.slider single-slide {
+  background-color: #99CCCC;
+  color: #000000;
+  opacity: 0.75;
+  border-radius: 20px;
+  vertical-align: text-top;
+  margin-right: 30px;
+  /* so slick arrow doesn't leave screen */
+}
+
+.button-row {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center;
+}
+
+.multiple-items {
+  text-align: center;
+}
+
+.active-button {
+  background-color: #339999;
+  color: #000000;
+}
+/* RAW HTML ELEMENTS */
+
+body {
+  font-family: "News Cycle", sans-serif;
+  font-size: 180%;
+  padding-top: 50px;
+  height: 100%;
+  padding: 5% 5% 5% 5%;
+  background-color: #808080;
+}
+.slide{
+  padding-bottom: 10px;
+}
+
+img{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 5px #000000;
+  font-size: 80%;
+}
+/* How do I make font responsive? By simply not setting font-size? */
+
+a {
+  color: #FFFFFF;
+}
+
+a:link {
+  color: #000000;
+}
+/* visited link */
+
+a:visited {
+  color: #000000;
+}
+/* mouse over link */
+
+a:hover {
+  color: #993333;
+  text-decoration: none;
+}
+
+.contact:hover {
+  color: #993333;
+  text-decoration: none;
+}
+
+/*
+li {
+  border-radius: 2px;
+}*/
