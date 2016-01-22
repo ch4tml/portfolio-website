@@ -61,7 +61,7 @@
 }
 
 #contact {
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   /*height: 200px;*/ 
   color: #000000;
   text-align: center;
@@ -69,14 +69,14 @@
 }
 /* JUMBOTRON */
 
-.jumbotron {
-  background-color: rgba(51, 153, 153, 0.6);
-  /* Makes background opaque without affecting foreground div */
+.jumbotron{
+  background-color: #339999;
+  opacity: 0.6;
 }
 
 #jumbotron-text {
-  color: #FFFFFF;
-  padding: 5% 5% 5% 5%;
+  background-color: #339999;
+  color: #ffffff;
   margin-right: auto;
   margin-left: auto;
 }
@@ -142,7 +142,7 @@ body {
   font-size: 180%;
   padding-top: 50px;
   height: 100%;
-  padding: 5% 5% 5% 5%;
+  /*padding: 5% 5% 5% 5%;*/
   background-color: #808080;
 }
 .slide{
