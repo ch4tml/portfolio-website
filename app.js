@@ -4,12 +4,16 @@
  */
 
 var express = require('express')
-  , routes = require('./routes')
+  , routes = require('./routes/index')
   , user = require('./routes/user')
   , http = require('http')
   , path = require('path');
 
 var app = express();
+
+// view engine setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
 
 // all environments
 app.set('port', process.env.PORT || 3000);
@@ -28,6 +32,7 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
+app.get("/projects", routes.projects);
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){

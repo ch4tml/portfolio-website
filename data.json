@@ -1,0 +1,23 @@
+{
+  "languages": [
+    "JavaScript",
+    "jQuery",
+    "Angular",
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "C#",
+    "MVC"
+  ],
+  "projects": [
+    "Random Quote Generator",
+    "Pomodoro Clock",
+    "Calculator",
+    "Local Weather",
+    "Twitch TV",
+    "Wikipedia Viewer",
+    "Camper News",
+    "Tic Tac Toe",
+    "Simon Game"
+  ]
+}
