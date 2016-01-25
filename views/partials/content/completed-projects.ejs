@@ -2,9 +2,12 @@
     <h1>Completed Projects</h1>
     <h2>Single Page Apps</h2>
         <% for(var i = 0; i < projects.length; i++) { %>
-        <div class="project">
-            <a href="<%= projects[i].url %>" target="_blank"><h3><%= projects[i].name %></h3></a>
-            <p><%= projects[i].description %></p>
-        </div>
+        <a href="<%= projects[i].url %>" target="_blank">
+            <div class="project">
+                <p><img src="<%= projects[i].img %>" alt="Project Thumbnail" id="portfolio-image"></p>
+                <h3><%= projects[i].name %></h3>
+                <p><%= projects[i].description %></p>
+            </div>
+        </a>
         <% }; %>
 </div>
