@@ -9,15 +9,60 @@
     "C#",
     "MVC"
   ],
-  "projects": [
-    "Random Quote Generator",
-    "Pomodoro Clock",
-    "Calculator",
-    "Local Weather",
-    "Twitch TV",
-    "Wikipedia Viewer",
-    "Camper News",
-    "Tic Tac Toe",
-    "Simon Game"
+  "projects": [{
+    "name": "Random Quote Generator",
+    "description": "Second project built as part of FCC curriculum. Built using HTML, CSS, Bootstrap and an array of quotes.",
+    "img": "/images/Quote_Generator.PNG",
+    "url": "http://s.codepen.io/ch4tml/debug/OyQVOW"
+  },
+    {
+      "name": "Pomodoro Clock",
+      "description": "Adaptable Pomodoro Timer",
+      "img": "/images/Pomodoro Clock.PNG",
+      "url": "http://s.codepen.io/ch4tml/debug/YyRdxb" 
+    }
+    ,
+    {
+      "name": "Calculator",
+      "description": "Calculator written in JavaScript. Built using HTML, CSS, Bootstrap.",
+      "img": "/images/Calculator.PNG",
+      "url": "http://s.codepen.io/ch4tml/debug/ojmeyP"
+    },
+    {
+      "name": "Local Weather",
+      "description": "First single app app to be built using a call to an API. There were two aspects to this project - being able to access a user's gelocation data, and translating this to an API call to a weather API, allowing for the app to display the weather in the current location.",
+      "img": "/images/Local Weather.PNG",
+      "url": "http://s.codepen.io/ch4tml/debug/yYWrYQ"
+    },
+    {
+      "name": "Twitch TV",
+      "description" : "Exploration into using APIs and Angular! This was a fun project which included a call to the TwitchTV API, and displaying the output using Angular.",
+      "img": "/images/Twitch TV.PNG",
+      "url": "http://s.codepen.io/ch4tml/debug/wKVxRG"
+    },
+    {
+      "name": "Camper News",
+      "description": "Fourth API-based project.",
+      "img": "/images/Camper News.PNG",
+      "url": "http://s.codepen.io/ch4tml/debug/ZQzyGW"
+    },
+    {
+      "name": "Wikipedia Viewer",
+      "description": "Second project which combined an API call and Angular.",
+      "img": "/images/Wiki Viewer.PNG",
+      "url": "http://s.codepen.io/ch4tml/debug/bEbyrK"
+    },
+    {
+      "name": "Tic Tac Toe",
+      "description": "Toughest project to date. Initially begun with an education in AI - looking at the MiniMax algorith and alpha-beta pruning. Decided upon a hard-coded route, whereby the \"AI's\" decision was a result of the player's previous moves.",
+      "img": "/images/Tic-Tac-Toe.PNG",
+      "url": "http://s.codepen.io/ch4tml/debug/MKwEGB"
+    },
+    {
+      "name": "Simon Game",
+      "description": "First project built in an object-oriented manner. Included by first attempts at test-driven development, with testing carried out using QUnit.",
+      "img": "/images/Simon_Game.PNG",
+      "url": "http://s.codepen.io/ch4tml/debug/EPVGNg"
+    }
   ]
 }

@@ -1,10 +1,10 @@
-<div class="completed-projects">
+<div class="col-xs-12 completed-projects">
     <h1>Completed Projects</h1>
-    <p>
-        <% projects.forEach(function(item){ %>
-        <ul>
-            <li><%= item %></li>
-        </ul>
-        <% }); %>
-    </p>
+    <h2>Single Page Apps</h2>
+        <% for(var i = 0; i < projects.length; i++) { %>
+        <div class="project">
+            <a href="<%= projects[i].url %>" target="_blank"><h3><%= projects[i].name %></h3></a>
+            <p><%= projects[i].description %></p>
+        </div>
+        <% }; %>
 </div>
