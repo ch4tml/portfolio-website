@@ -1,23 +1,16 @@
 {
-  "languages": [
-    "JavaScript",
-    "jQuery",
-    "Angular",
-    "HTML",
-    "CSS",
-    "Bootstrap",
-    "C#",
-    "MVC"
-  ],
-  "projects": [{
-    "name": "Random Quote Generator",
-    "description": "Second project built as part of FCC curriculum. Built using HTML, CSS, Bootstrap and an array of quotes.",
-    "img": "/images/Quote_Generator.PNG",
-    "url": "http://s.codepen.io/ch4tml/debug/OyQVOW"
-  },
+  "projects": {
+    "front-end": [{
+      "name": "Random Quote Generator",
+      "description": "Second project built as part of FCC curriculum. Built using HTML, CSS, Bootstrap and an array of quotes.",
+      "technologies": ["JavaScript", "jQuery", "HTML", "CSS", "Bootstrap"],
+      "img": "/images/Quote_Generator.PNG",
+      "url": "http://s.codepen.io/ch4tml/debug/OyQVOW"
+    },
     {
       "name": "Pomodoro Clock",
       "description": "Adaptable Pomodoro Timer",
+      "technologies": ["JavaScript", "jQuery", "HTML", "CSS", "Bootstrap"],
       "img": "/images/Pomodoro Clock.PNG",
       "url": "http://s.codepen.io/ch4tml/debug/YyRdxb" 
     }
@@ -25,44 +18,75 @@
     {
       "name": "Calculator",
       "description": "Calculator written in JavaScript. Built using HTML, CSS, Bootstrap.",
+      "technologies": ["JavaScript", "jQuery", "HTML", "CSS", "Bootstrap"],
       "img": "/images/Calculator.PNG",
       "url": "http://s.codepen.io/ch4tml/debug/ojmeyP"
     },
     {
       "name": "Local Weather",
       "description": "First single app app to be built using a call to an API. There were two aspects to this project - being able to access a user's gelocation data, and translating this to an API call to a weather API, allowing for the app to display the weather in the current location.",
+      "technologies": ["JavaScript", "jQuery", "HTML", "CSS", "Bootstrap"],
       "img": "/images/Local Weather.PNG",
       "url": "http://s.codepen.io/ch4tml/debug/yYWrYQ"
     },
     {
       "name": "Twitch TV",
       "description" : "Exploration into using APIs and Angular! This was a fun project which included a call to the TwitchTV API, and displaying the output using Angular.",
+      "technologies": ["JavaScript", "jQuery", "Angular", "HTML", "CSS", "Bootstrap"],
       "img": "/images/Twitch TV.PNG",
       "url": "http://s.codepen.io/ch4tml/debug/wKVxRG"
     },
     {
       "name": "Camper News",
       "description": "Fourth API-based project.",
+      "technologies": ["JavaScript", "jQuery", "Angular", "HTML", "CSS", "Bootstrap"],
       "img": "/images/Camper News.PNG",
       "url": "http://s.codepen.io/ch4tml/debug/ZQzyGW"
     },
     {
       "name": "Wikipedia Viewer",
       "description": "Second project which combined an API call and Angular.",
+      "technologies": ["JavaScript", "jQuery", "Angular", "HTML", "CSS", "Bootstrap"],
       "img": "/images/Wiki Viewer.PNG",
       "url": "http://s.codepen.io/ch4tml/debug/bEbyrK"
     },
     {
       "name": "Tic Tac Toe",
       "description": "Toughest project to date. Initially begun with an education in AI - looking at the MiniMax algorith and alpha-beta pruning. Decided upon a hard-coded route, whereby the \"AI's\" decision was a result of the player's previous moves.",
+      "technologies": ["JavaScript", "jQuery", "HTML", "CSS", "Bootstrap"],
       "img": "/images/Tic-Tac-Toe.PNG",
       "url": "http://s.codepen.io/ch4tml/debug/MKwEGB"
     },
     {
       "name": "Simon Game",
       "description": "First project built in an object-oriented manner. Included by first attempts at test-driven development, with testing carried out using QUnit.",
+      "technologies": ["JavaScript", "jQuery", "HTML", "CSS", "Bootstrap"],
       "img": "/images/Simon_Game.PNG",
       "url": "http://s.codepen.io/ch4tml/debug/EPVGNg"
-    }
-  ]
+    }],
+    "full-stack": [{
+      "name": "Timestamp Microservice",
+      "description": "A resource that responds to a HTTP GET request which included a date string or unix stamp, and responsed with a JSON object showing both unix and datestamp properties. A particularly fun project which helped to in my understanding of how Node.js works.",
+      "img": "http://placehold.it/280x150",
+      "technologies": ["Node.js", "Express.js", "JavaScript", "HTML", "EJS"],
+      "url": "https://ch4tml-ts-ms.herokuapp.com/g",
+      "github" : "https://github.com/ch4tml/timestamp-microservice"
+    },
+    {
+      "name": "Request Header Parser Microservice",
+      "description": "A resource that responds to a HTTP GET request and responsed with a JSON object showing both the IP, language and operating-system of the user. This project used nothing but the request headers sent with the GET request to extract the relevant information.",
+      "img": "http://placehold.it/280x150",
+      "technologies": ["Node.js", "Express.js", "JavaScript", "HTML", "EJS"],
+      "url": "https://ch4tml-rh-ms.herokuapp.com/",
+      "github": "https://github.com/ch4tml/request-header-parser-microservice"
+    },
+    {
+      "name": "URL Shortener Microservice",
+      "description": "First full-stack project. A user submits a URL and is provided with a \"short\" URL! A more involved project that required documents to be stored to MongoDB - needed to check whether a URL had been entered before and if so, provide that unique short URL in response.",
+      "img": "http://placehold.it/280x150",
+      "technologies": ["Node.js", "Express.js", "MongoDB", "Mongoose.js", "JavaScript", "HTML", "EJS"],
+      "url": "https://ch4tml-url-ms.herokuapp.com/",
+      "github": "https://github.com/ch4tml/url-shortener-microservice"
+    }]
+  }
 }

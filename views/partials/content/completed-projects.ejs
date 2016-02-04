@@ -2,13 +2,29 @@
     <h1>Completed Projects</h1>
     <h2>Single Page Apps</h2>
     <hr>
-        <% for(var i = 0; i < projects.length; i++) { %>
-        <a href="<%= projects[i].url %>" target="_blank">
+        <% for(var i = 0; i < projects["front-end"].length; i++) { %>
+        <a href="<%= projects["front-end"][i].url %>" target="_blank">
             <div class="project">
-                <p><img src="<%= projects[i].img %>" alt="Project Thumbnail" id="portfolio-image"></p>
-                <h3><%= projects[i].name %></h3>
-                <p><%= projects[i].description %></p>
-            </div>
+                <p><img src="<%= projects["front-end"][i].img %>" alt="Project Thumbnail" id="portfolio-image"></p>
+                <h3><%= projects["front-end"][i].name %></h3>
+                <p><%= projects["front-end"][i].description %></p>
+                <h4>Technologies</h4>
+                <p><%= projects["front-end"][i].technologies.join(", ") %></p>
+            </div><!-- Project box -->
         </a>
         <% }; %>
-</div>
+    <h2>Full-Stack Apps</h2>
+    <hr>
+        <% for(var i = 0; i < projects["full-stack"].length; i++) { %>
+        <a href="<%= projects["full-stack"][i].url %>" target="_blank">
+            <div class="project">
+                <p><img src="<%= projects["full-stack"][i].img %>" alt="Project Thumbnail" id="portfolio-image"></p>
+                <h3><%= projects["full-stack"][i].name %></h3>
+                <p><%= projects["full-stack"][i].description %></p>
+                <h4>Technologies</h4>
+                <p><%= projects["full-stack"][i].technologies.join(", ") %></p>
+            </div><!-- Project box -->
+        </a>
+        <% }; %>
+
+</div><!-- Completed projects -->
