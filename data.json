@@ -5,7 +5,7 @@
       "name": "Portfolio Website",
       "description": "First project. A daunting task, having only just completed tutorials on front-end technologies. This project was a slow-burner, adding new sections as projects were completed and technologies were learned. The portfolio was then adapted and reconstructed in Node.js and Express.js, using the EJS view engine The current portfolio resides has been deployed to Heroku.",
       "technologies": ["JavaScript", "jQuery", "HTML", "CSS", "Bootstrap"],
-      "img": "http://placehold.it/280x150",
+      "img": "http://placehold.it/280x158",
       "url": "http://s.codepen.io/ch4tml/debug/OyQVOW"
     },
     {
@@ -75,7 +75,7 @@
     "full-stack": [{
       "name": "Timestamp Microservice",
       "description": "A resource that responds to a HTTP GET request which included a date string or unix stamp, and responsed with a JSON object showing both unix and datestamp properties. A particularly fun project which helped to in my understanding of how Node.js works.",
-      "img": "http://placehold.it/280x150",
+      "img": "http://placehold.it/280x158",
       "technologies": ["Node.js", "Express.js", "JavaScript", "HTML", "EJS"],
       "url": "https://ch4tml-ts-ms.herokuapp.com/g",
       "github" : "https://github.com/ch4tml/timestamp-microservice"
@@ -83,7 +83,7 @@
     {
       "name": "Request Header Parser Microservice",
       "description": "A resource that responds to a HTTP GET request and responsed with a JSON object showing both the IP, language and operating-system of the user. This project used nothing but the request headers sent with the GET request to extract the relevant information.",
-      "img": "http://placehold.it/280x150",
+      "img": "http://placehold.it/280x158",
       "technologies": ["Node.js", "Express.js", "JavaScript", "HTML", "EJS"],
       "url": "https://ch4tml-rh-ms.herokuapp.com/",
       "github": "https://github.com/ch4tml/request-header-parser-microservice"
@@ -91,7 +91,7 @@
     {
       "name": "URL Shortener Microservice - awaiting deployment",
       "description": "First full-stack project. A user submits a URL and is provided with a \"short\" URL! A more involved project that required documents to be stored to MongoDB - needed to check whether a URL had been entered before and if so, provide that unique short URL in response.",
-      "img": "http://placehold.it/280x150",
+      "img": "http://placehold.it/280x158",
       "technologies": ["Node.js", "Express.js", "MongoDB", "Mongoose.js", "JavaScript", "HTML", "EJS"],
       "url": "https://ch4tml-url-ms.herokuapp.com/",
       "github": "https://github.com/ch4tml/url-shortener-microservice"
