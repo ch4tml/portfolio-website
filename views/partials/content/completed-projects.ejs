@@ -6,8 +6,10 @@
         <a href="<%= projects["front-end"][i].url %>" target="_blank">
             <div class="project">
                 <p><img src="<%= projects["front-end"][i].img %>" alt="Project Thumbnail" id="portfolio-image"></p>
+                <hr>
                 <h3><%= projects["front-end"][i].name %></h3>
                 <p><%= projects["front-end"][i].description %></p>
+                <hr>
                 <h4>Technologies</h4>
                 <p><%= projects["front-end"][i].technologies.join(", ") %></p>
             </div><!-- Project box -->
@@ -19,8 +21,10 @@
         <a href="<%= projects["full-stack"][i].url %>" target="_blank">
             <div class="project">
                 <p><img src="<%= projects["full-stack"][i].img %>" alt="Project Thumbnail" id="portfolio-image"></p>
+                <hr>
                 <h3><%= projects["full-stack"][i].name %></h3>
                 <p><%= projects["full-stack"][i].description %></p>
+                <hr>
                 <h4>Technologies</h4>
                 <p><%= projects["full-stack"][i].technologies.join(", ") %></p>
             </div><!-- Project box -->

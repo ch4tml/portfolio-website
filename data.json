@@ -1,15 +1,23 @@
 {
   "projects": {
-    "front-end": [{
+    "front-end": [
+      {
+      "name": "Portfolio Website",
+      "description": "First project. A daunting task, having only just completed tutorials on front-end technologies. This project was a slow-burner, adding new sections as projects were completed and technologies were learned. The portfolio was then adapted and reconstructed in Node.js and Express.js, using the EJS view engine The current portfolio resides has been deployed to Heroku.",
+      "technologies": ["JavaScript", "jQuery", "HTML", "CSS", "Bootstrap"],
+      "img": "/images/Quote_Generator.PNG",
+      "url": "http://s.codepen.io/ch4tml/debug/OyQVOW"
+    },
+    {
       "name": "Random Quote Generator",
-      "description": "Second project built as part of FCC curriculum. Built using HTML, CSS, Bootstrap and an array of quotes.",
+      "description": "Second project built as part of FCC curriculum. A fun little project which used an array of quotes and a random number generator to select one. One interesting aspect of this project adapting the quotes to fit with Twitter's 140 character maximum. This mean that longer quotes had to be shortened with sufficient space to allow author attribution.",
       "technologies": ["JavaScript", "jQuery", "HTML", "CSS", "Bootstrap"],
       "img": "/images/Quote_Generator.PNG",
       "url": "http://s.codepen.io/ch4tml/debug/OyQVOW"
     },
     {
       "name": "Pomodoro Clock",
-      "description": "Adaptable Pomodoro Timer",
+      "description": "This was the first project that felt like a true challenge. How does one go about implementing a timer function? In the end, settled on using the JavaScript Date function to benchmark a second, and this accurate second was passed in to the SetInterval function to implement a countdown.",
       "technologies": ["JavaScript", "jQuery", "HTML", "CSS", "Bootstrap"],
       "img": "/images/Pomodoro Clock.PNG",
       "url": "http://s.codepen.io/ch4tml/debug/YyRdxb" 
@@ -17,7 +25,7 @@
     ,
     {
       "name": "Calculator",
-      "description": "Calculator written in JavaScript. Built using HTML, CSS, Bootstrap.",
+      "description": "Another tough project. The arithmetic functions were easy to define, but the challenge was in storing and reading the order in which keys were pressed and subsequently performing the operation. Potential to refactor this project in a more Functional Programming manner using currying.",
       "technologies": ["JavaScript", "jQuery", "HTML", "CSS", "Bootstrap"],
       "img": "/images/Calculator.PNG",
       "url": "http://s.codepen.io/ch4tml/debug/ojmeyP"
@@ -38,14 +46,14 @@
     },
     {
       "name": "Camper News",
-      "description": "Fourth API-based project.",
+      "description": "API-based project which called to the FCC News API. Another fun project which was more front-end focused. Extracting the data from the API is easy enough with the fun laying in the design elements of the UI.",
       "technologies": ["JavaScript", "jQuery", "Angular", "HTML", "CSS", "Bootstrap"],
       "img": "/images/Camper News.PNG",
       "url": "http://s.codepen.io/ch4tml/debug/ZQzyGW"
     },
     {
       "name": "Wikipedia Viewer",
-      "description": "Second project which combined an API call and Angular.",
+      "description": "A slightly tougher API project. The Wikipedia API doesn't seem as simple to navigate as other APIs used so far, however, Wikipedia had a handy tool that allowed users to construct the URL for the API call. Angular was used to display the results to the screen with an AJAX call to implement the auto-complete function.",
       "technologies": ["JavaScript", "jQuery", "Angular", "HTML", "CSS", "Bootstrap"],
       "img": "/images/Wiki Viewer.PNG",
       "url": "http://s.codepen.io/ch4tml/debug/bEbyrK"
@@ -81,7 +89,7 @@
       "github": "https://github.com/ch4tml/request-header-parser-microservice"
     },
     {
-      "name": "URL Shortener Microservice",
+      "name": "URL Shortener Microservice - awaiting deployment",
       "description": "First full-stack project. A user submits a URL and is provided with a \"short\" URL! A more involved project that required documents to be stored to MongoDB - needed to check whether a URL had been entered before and if so, provide that unique short URL in response.",
       "img": "http://placehold.it/280x150",
       "technologies": ["Node.js", "Express.js", "MongoDB", "Mongoose.js", "JavaScript", "HTML", "EJS"],
