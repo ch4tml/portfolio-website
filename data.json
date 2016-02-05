@@ -5,7 +5,7 @@
       "name": "Portfolio Website",
       "description": "First project. A daunting task, having only just completed tutorials on front-end technologies. This project was a slow-burner, adding new sections as projects were completed and technologies were learned. The portfolio was then adapted and reconstructed in Node.js and Express.js, using the EJS view engine The current portfolio resides has been deployed to Heroku.",
       "technologies": ["JavaScript", "jQuery", "HTML", "CSS", "Bootstrap"],
-      "img": "/images/Quote_Generator.PNG",
+      "img": "http://placehold.it/280x150",
       "url": "http://s.codepen.io/ch4tml/debug/OyQVOW"
     },
     {
