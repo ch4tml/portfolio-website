@@ -89,12 +89,20 @@
       "github": "https://github.com/ch4tml/request-header-parser-microservice"
     },
     {
-      "name": "URL Shortener Microservice - awaiting deployment",
+      "name": "URL Shortener Microservice",
       "description": "First full-stack project. A user submits a URL and is provided with a \"short\" URL! A more involved project that required documents to be stored to MongoDB - needed to check whether a URL had been entered before and if so, provide that unique short URL in response.",
       "img": "http://placehold.it/280x158",
       "technologies": ["Node.js", "Express.js", "MongoDB", "Mongoose.js", "JavaScript", "HTML", "EJS"],
       "url": "https://ch4tml-url-ms.herokuapp.com/",
       "github": "https://github.com/ch4tml/url-shortener-microservice"
+    },
+    {
+      "name": "Image Search Abstraction Layer",
+      "description": "Fun little API abstraction project. A user submits submits a URL which contains a search term as a query string. This search term is for images, and calls for the Bing API to extract particular information - returned as JSON. In addition, a user can amend the pagination by adding \"?offset=1\" as a query. A secondary aspect of this project was to log each search term and time of search. This information was stored to a MongoDB database and retrieved on navigation to the history URL.",
+      "img": "http://placehold.it/280x158",
+      "technologies": ["Node.js", "Express.js", "MongoDB", "Mongoose.js", "JavaScript", "HTML", "EJS"],
+      "url": "https://ch4tml-imgsrch.herokuapp.com/",
+      "github": "https://github.com/ch4tml/image-search-abstraction-layer"
     }]
   }
 }
