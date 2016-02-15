@@ -103,6 +103,14 @@
       "technologies": ["Node.js", "Express.js", "MongoDB", "Mongoose.js", "JavaScript", "HTML", "EJS"],
       "url": "https://ch4tml-imgsrch.herokuapp.com/",
       "github": "https://github.com/ch4tml/image-search-abstraction-layer"
+    },
+    {
+      "name": "File Metadata Microservice",
+      "description": "Revisited HTML forms to allow a user to submit a file for analysis. The package Multer was used to extract metadata about the file, returning the filename, filesize and date uploaded as JSON.",
+      "img": "http://placehold.it/280x158",
+      "technologies": ["Node.js", "Express.js", "MongoDB", "Mongoose.js", "JavaScript", "HTML", "EJS"],
+      "url": "https://ch4tml-filemd.herokuapp.com/",
+      "github": "https://github.com/ch4tml/file-metadata-microservice"
     }]
   }
 }
