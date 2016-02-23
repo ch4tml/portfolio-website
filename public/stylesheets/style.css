@@ -6,14 +6,14 @@ body {
   font-family: "News Cycle", sans-serif;
   font-size: 180%;
   padding-top: 50px;
-  height: 100%;
+  /*height: 100%;*/
   /*padding: 5% 5% 5% 5%;*/
   background-color: #808080;
 }
 
 footer {
   background-color: #FFFFFF;
-  height: 50px;
+  height: 10vh;
   color: #000000;
   text-align: center;
   padding: 10px;
@@ -76,6 +76,7 @@ li {
 }*/
 
 #header {
+  height: 100vh;
   background: url("/images/Old_Keyboard.jpg");
   background-repeat: no-repeat;
   background-position: right center;
@@ -93,10 +94,20 @@ li {
 }
 
 #about {
+  position: relative;
+  height: 100vh;
   background: #FFFFFF;
   font-size: 18px;
   color: #000000;
   padding: 5% 5% 5% 5%;
+}
+
+#about-container{
+  width: 80vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #about h1 {
@@ -113,6 +124,7 @@ li {
 }
 
 #portfolio {
+  height: 100vh;
   background: #339999;
   text-align: center;
   padding: 50px;
@@ -129,6 +141,7 @@ li {
 }
 
 #image_attributions {
+  height: 40vh;
   background: #339999;
   text-align: center;
   color: #FFFFFF;
@@ -137,7 +150,7 @@ li {
 
 #contact {
   background-color: #FFFFFF;
-  /*height: 200px;*/ 
+  height: 50vh; 
   color: #000000;
   text-align: center;
   padding: 5% 5% 5% 5%;
@@ -150,6 +163,11 @@ li {
 /* JUMBOTRON */
 
 .jumbotron{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 80vw;
+  transform: translate(-50%, -50%);
   background-color: #339999;
   opacity: 0.6;
 }
@@ -174,10 +192,11 @@ li {
 }
 
 .completed-projects {
+  margin-top: 5%;
   font-size: 1em;
   text-align: center;
 }
-
+/*
 .project{
   color: #ffffff;
   background-color: #339999;
@@ -192,7 +211,7 @@ li {
   padding: 5px;
   text-align: center;
 }
-
+*/
 .btn, .btn:visited {
   background-color: #339999;
   color: #000000;
@@ -234,4 +253,106 @@ li {
 .active-button {
   background-color: #339999;
   color: #000000;
+}
+
+/* Portfolio page  */
+
+#project-search{
+  text-align: center;
+  width: 400px;
+  height: 50px;
+  font-size: 2em;
+  padding: 1%;
+  margin: 1%;
+}
+
+.project{
+  color: #ffffff;
+  background-color: #339999;
+  position: relative;
+  display: inline-block;
+  /*width: 450px;*/
+  width: 80vw;
+  /*height: 500px;*/
+  height: 30vh;
+  border: 1px solid #777;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 2px #777;
+  margin: 5px;
+  padding: 5px;
+  /*text-align: center;*/
+}
+
+.project:hover:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  border-left: 5px solid white;
+}
+
+#image, #description {
+  padding: 20px 0px;
+  height: auto;
+  margin: 10px auto;
+  display: inline-block;
+  height: auto;
+  text-align: justify;
+}
+
+#technologies{
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.project h3 p{
+  color: #ffffff;
+}
+
+.project > p{
+  font-size: 1.5em;
+}
+
+.project a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.project a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* visited link */
+
+.project a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* mouse over link */
+
+.project a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.project a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+/*
+.project:hover{
+  box-shadow: 0px 0px 10px 2px #FFFFFF;
+}*/
+
+#image-row {
+  width: 278px;
+  height: 200px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  border-bottom: 1px solid #FFFFFF;
+  box-shadow: 2px 2px 5px #000000;
 }

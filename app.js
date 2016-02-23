@@ -6,10 +6,12 @@
 var express = require('express')
   , routes = require('./routes/index')
   , user = require('./routes/user')
+  , api = require("./routes/api")
   , http = require('http')
   , path = require('path');
 
 var app = express();
+require('dotenv').config();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -34,6 +36,7 @@ if ('development' == app.get('env')) {
 app.get('/', routes.index);
 app.get("/projects", routes.projects);
 app.get('/users', user.list);
+app.get("/api/data/projects", api.getProjects);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
