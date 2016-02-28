@@ -60,7 +60,7 @@ a:active {
 
 .contact{
   color: #000000;
-  background-color: #339999;
+  background-color: #FFFFFF;
   position: relative;
   display: inline-block;
   width: 250px;
@@ -149,9 +149,9 @@ li {
 }
 
 #contact {
-  background-color: #FFFFFF;
+  background-color: #339999;
   height: 50vh; 
-  color: #000000;
+  color: #FFFFFF;
   text-align: center;
   padding: 5% 5% 5% 5%;
 }
